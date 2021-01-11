@@ -26,6 +26,7 @@ vi:
     email: "Email:"
     password: "Mật khẩu:"
     confirmation: "Nhập lại mật khẩu:"
+    remember_me: "Ghi nhớ đăng nhập"
     invalid_email_password_combination: "Tài khoản hoặc mật khẩu không đúng"
     account: "Tài khoản"
     profile: "Hồ sơ"
