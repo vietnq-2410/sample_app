@@ -4,7 +4,7 @@ class User < ApplicationRecord
   before_save :downcase_email
   validates :name, presence: true
   validates :email, presence: true, format: {with: VALID_EMAIL_REGEX},
-                    uniqueness: true
+    uniqueness: true, length: {minimum: 6}, allow_nil: true
   validates :password, presence: true
 
   def self.digest string
@@ -29,7 +29,7 @@ class User < ApplicationRecord
     update_column :remember_digest, User.digest(remember_token)
   end
 
-  def authenticated? attribute, token
+  def authenticated? remember_token
     return false unless remember_digest
 
     BCrypt::Password.new(remember_digest).is_password? remember_token

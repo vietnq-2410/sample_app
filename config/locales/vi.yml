@@ -2,6 +2,8 @@ vi:
   title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
   home_title: "Trang chủ"
   help_title: "Cứu giúp"
+  edit_title: "Người dùng biên tập"
+  all_user_title: "Tất cả người sử dụng"
   locale:
     en: "Tiếng anh"
     vi: "Tiếng Việt"
@@ -18,6 +20,7 @@ vi:
     link2: "Hướng dẫn sử dụng Ruby on Rails"
     desc3: "sách."
   account:
+    users: "Người dùng"
     signup: "Đăng ký ngay!"
     login: "Đăng nhập"
     create_my_account: "Tạo tài khoản"
@@ -36,3 +39,21 @@ vi:
   message:
     user_warning: "Lỗi!"
     sign_up_error_count: "Lỗi đăng ký! Có %{count} lỗi!"
+    update_success: "Cập nhật thành công!"
+    delete_success: "Xóa thành công!"
+    alert_login: "Vui lòng hãy đăng nhập."
+    delete_failed: "Xóa không thành công!"
+  action:
+    delete: "Xóa"
+    update: "Cập nhật"
+    edit: "Sửa"
+    confirm: "Bạn chắc chắn?"
+    save: "Lưu"
+    change: "Thay đổi"
+  edit_user:
+    title: "Cập nhật hồ sơ của bạn"
+  all_user:
+    title: "Tất cả người sử dụng"
+  will_paginate:
+    previous_label: "Trước"
+    next_label: "Sau"

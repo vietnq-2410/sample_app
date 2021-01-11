@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+git_source(:github) {|repo| "https://github.com/#{repo}.git"}
 
 ruby "2.7.1"
 
@@ -37,9 +37,13 @@ group :development, :test do
   gem "rubocop-checkstyle_formatter", require: false
   gem "rubocop-rails", "~> 2.3.2", require: false
 end
+
 source "https://rubygems.org"
 gem "bootstrap-sass", "3.4.1"
 gem "bcrypt", "3.1.11"
-gem "jquery-rails", "4.3.1"
 gem "figaro"
 gem "config"
+gem "jquery-rails", "4.3.1"
+gem "faker", "1.7.3"
+gem "will_paginate", "3.1.7"
+gem "bootstrap-will_paginate", "1.0.0"

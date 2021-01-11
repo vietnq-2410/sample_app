@@ -2,6 +2,8 @@ en:
   title: "Ruby on Rails Tutorial Sample App"
   home_title: "Home"
   help_title: "help"
+  edit_title: "Edit user"
+  all_user_title: "All users"
   locale:
     en: "English"
     vi: "Vietnamese"
@@ -18,6 +20,7 @@ en:
     link2: "Ruby on Rails Tutorial"
     desc3: "book."
   account:
+    users: "Users"
     signup: "Sign up now!"
     login: "Login"
     create_my_account: "Create my account"
@@ -36,3 +39,21 @@ en:
   message:
     user_warning: "Not user!"
     sign_up_error_count: "Sign up error! Has %{count} errors!"
+    update_success: "Update success!"
+    delete_success: "Delete success!"
+    alert_login: "Please log in."
+    delete_failed: "Delete failed!"
+  action:
+    delete: "Delete"
+    update: "Update"
+    edit: "Edit"
+    confirm: "You sure?"
+    save: "Save"
+    change: "Change"
+  edit_user:
+    title: "Update your profile"
+  all_user:
+    title: "All user"
+  will_paginate:
+    previous_label: "Previous"
+    next_label: "Next"
