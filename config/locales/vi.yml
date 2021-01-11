@@ -26,6 +26,12 @@ vi:
     email: "Email:"
     password: "Mật khẩu:"
     confirmation: "Nhập lại mật khẩu:"
+    invalid_email_password_combination: "Tài khoản hoặc mật khẩu không đúng"
+    account: "Tài khoản"
+    profile: "Hồ sơ"
+    setting: "Cài đặt"
+    logout: "Đăng xuất"
+    new_user: "Cái chiếu mới ?"
   message:
     user_warning: "Lỗi!"
     sign_up_error_count: "Lỗi đăng ký! Có %{count} lỗi!"
