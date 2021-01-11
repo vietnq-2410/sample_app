@@ -20,3 +20,12 @@ en:
   account:
     signup: "Sign up now!"
     login: "Login"
+    create_my_account: "Create my account"
+    the_form_contains: "Error!"
+    name: "Name:"
+    email: "Email:"
+    password: "Password:"
+    confirmation: "Confirm password:"
+  message:
+    user_warning: "Not user!"
+    sign_up_error_count: "Sign up error! Has %{count} errors!"
