@@ -10,6 +10,7 @@ gem "sass-rails", ">= 6"
 gem "webpacker", "~> 4.0"
 gem "turbolinks", "~> 5"
 gem "jbuilder", "~> 2.7"
+gem "rails-i18n"
 gem "bootsnap", ">= 1.4.2", require: false
 
 group :development, :test do
@@ -36,3 +37,5 @@ group :development, :test do
   gem "rubocop-checkstyle_formatter", require: false
   gem "rubocop-rails", "~> 2.3.2", require: false
 end
+source "https://rubygems.org"
+gem "bootstrap-sass", "3.4.1"

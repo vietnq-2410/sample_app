@@ -1,0 +1,22 @@
+vi:
+  title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+  home_title: "Trang chủ"
+  help_title: "Cứu giúp"
+  locale:
+    en: "Tiếng anh"
+    vi: "Tiếng Việt"
+  home:
+    title: "Ứng dụng mẫu"
+    desc1: "Đây là trang chủ của"
+    link: "Hướng dẫn sử dụng Ruby on Rails"
+    desc2: "ứng dụng mẫu."
+  help:
+    title: "Cứu giúp"
+    desc1: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+    link1: "Trang trợ giúp Hướng dẫn về Rails"
+    desc2: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
+    link2: "Hướng dẫn sử dụng Ruby on Rails"
+    desc3: "sách."
+  account:
+    signup: "Đăng ký ngay!"
+    login: "Đăng nhập"
