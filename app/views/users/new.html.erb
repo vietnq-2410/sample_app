@@ -1,0 +1,18 @@
+<% provide :title, t("account.signup") %>
+<h1 class="text-center"><%=t("account.signup")%></h1>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for(@user) do |f| %>
+      <%= render "shared/error_messages" %>
+      <%= f.label :name, t("account.name") %>
+      <%= f.text_field :name %>
+      <%= f.label :email, t("account.email") %>
+      <%= f.email_field :email %>
+      <%= f.label :password, t("account.password") %>
+      <%= f.password_field :password %>
+      <%= f.label :password_confirmation, t("account.confirmation") %>
+      <%= f.password_field :password_confirmation %>
+      <%= f.submit t("account.create_my_account"), class: "btn btn-primary" %>
+    <% end %>
+  </div>
+</div>
