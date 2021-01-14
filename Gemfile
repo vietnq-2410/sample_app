@@ -40,7 +40,7 @@ end
 
 source "https://rubygems.org"
 gem "bootstrap-sass", "3.4.1"
-gem "bcrypt", "3.1.11"
+gem "bcrypt", "3.1.15"
 gem "figaro"
 gem "config"
 gem "jquery-rails", "4.3.1"

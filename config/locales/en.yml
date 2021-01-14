@@ -43,6 +43,10 @@ en:
     delete_success: "Delete success!"
     alert_login: "Please log in."
     delete_failed: "Delete failed!"
+    acc_activated: "Account activation is successful!"
+    invalid_activated: "Active account failed!"
+    check_mail: "Please check your email to activate your account."
+    not_activate: "Account not activated. Check your email for the activation link."
   action:
     delete: "Delete"
     update: "Update"
@@ -57,3 +61,8 @@ en:
   will_paginate:
     previous_label: "Previous"
     next_label: "Next"
+  mail:
+    activate: "Activate!"
+    acc_activation: "Account activation"
+    desc: "Welcome to the Sample App! Click on the link below to activate your account:"
+    hi: "Hi %{name} !"

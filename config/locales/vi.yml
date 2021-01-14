@@ -43,6 +43,10 @@ vi:
     delete_success: "Xóa thành công!"
     alert_login: "Vui lòng hãy đăng nhập."
     delete_failed: "Xóa không thành công!"
+    acc_activated: "kích hoạt tài khoản thành công!"
+    invalid_activated: "kích hoạt tài khoản thất bại!"
+    check_mail: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
+    not_activate: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt."
   action:
     delete: "Xóa"
     update: "Cập nhật"
@@ -57,3 +61,8 @@ vi:
   will_paginate:
     previous_label: "Trước"
     next_label: "Sau"
+  mail:
+    activate: "kích hoạt !"
+    acc_activation: "Kích hoạt tài khoản"
+    desc: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
+    hi: "Xin chào %{name} !"
