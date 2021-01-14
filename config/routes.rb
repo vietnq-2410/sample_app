@@ -4,7 +4,7 @@ Rails.application.routes.draw do
     get "static_pages/help"
     get "/signup", to: "users#new"
     post "/signup", to: "users#create"
-    resources :users, only: %i(new show create)
+    resources :users
     get "/login", to: "session#new"
     post "/login", to: "session#create"
     delete "logout", to: "session#destroy"
