@@ -61,7 +61,7 @@ GEM
     ast (2.4.1)
     autoprefixer-rails (10.2.0.0)
       execjs
-    bcrypt (3.1.11)
+    bcrypt (3.1.15)
     bindex (0.8.1)
     bootsnap (1.5.1)
       msgpack (~> 1.0)
@@ -281,15 +281,15 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bcrypt (= 3.1.11)
+  bcrypt (= 3.1.15)
   bootsnap (>= 1.4.2)
   bootstrap-sass (= 3.4.1)
   bootstrap-will_paginate (= 1.0.0)
   byebug
   capybara (>= 2.15)
   config
-  figaro
   faker (= 1.7.3)
+  figaro
   jbuilder (~> 2.7)
   jquery-rails (= 4.3.1)
   listen (~> 3.2)
