@@ -1,4 +1,9 @@
 remember_status: "1"
 paginate:
   users: 3
-reset_pass_expired_time: 2
+validates:
+  content_microppst: 140
+  max_size_image: 50
+  width_image: 500
+  height_image: 500
+  type_image: "image/jpeg,image/gif,image/png"

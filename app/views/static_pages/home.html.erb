@@ -1,10 +1,28 @@
 <% provide :title, t("home_title") %>
 <% provide :title_base, t("title") %>
-<div class="center jumbotron">
-  <h1><%= t("home.title") %></h1>
-  <p>
-    <%= t("home.desc1") %>
-    <%= link_to "http://www.railstutorial.org/", t("home.link") %>
-  </p>
-  <%= link_to t("account.signup"), "#", class: "btn btn-lg btn-primary" %>
-</div>
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render "shared/user_info" %>
+      </section>
+      <section class="micropost_form">
+        <%= render "shared/micropost_form" %>
+      </section>
+    </aside>
+    <div class="col-md-8">
+      <h3><%= t("micropost.mic_feed") %></h3>
+      <%= render "shared/feed" %>
+    </div>
+  </div>
+<% else %>
+  <div class="center jumbotron">
+    <h1><%= t("home.title") %></h1>
+    <p>
+      <%= t("home.desc1") %>
+      <%= link_to "http://www.railstutorial.org/", t("home.link") %>
+    </p>
+    <%= link_to t("account.signup"), signup_path, class: "btn btn-lg btn-primary" %>
+  </div>
+<% end %>
+<%= javascript_pack_tag "size_image", "data-turbolinks-track": "reload" %>

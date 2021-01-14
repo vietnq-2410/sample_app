@@ -1,0 +1,2 @@
+- file: 'app/javascript/packs/size_image.js'
+  only: "*"

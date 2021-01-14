@@ -6,15 +6,19 @@ $color_white: #fff;
 body {
   padding-top: 60px;
 }
+
 section {
   overflow: auto;
 }
+
 textarea {
   resize: vertical;
 }
+
 .center {
   text-align: center;
 }
+
 .center h1 {
   margin-bottom: 10px;
 }
@@ -65,12 +69,26 @@ aside {
       margin-top: 0px;
     }
   }
+
+  textarea {
+    height: 100px;
+    margin-bottom: 5px;
+  }
+}
+
+span.picture {
+  margin-top: 10px;
+
+  input {
+    border: 0;
+  }
 }
 
 .gravatar {
   float: left;
   margin-right: 10px;
 }
+
 .gravatar_edit {
   margin-top: 15px;
 }
@@ -98,6 +116,7 @@ input {
     margin: 0 0 30px;
   }
 }
+
 .field_with_errors {
   @extend .has-error;
 
@@ -116,6 +135,7 @@ input {
     margin-left: 20px;
   }
 }
+
 #session_remember_me {
   margin-left: 0;
   width: auto;
@@ -130,5 +150,44 @@ input {
     overflow: auto;
     padding: 10px 0;
     border-bottom: 1px solid $gray-lighter;
+  }
+}
+
+.microposts {
+  list-style: none;
+  padding: 0;
+
+  li {
+    padding: 10px 0;
+    border-top: 1px solid #e8e8e8;
+  }
+
+  .user {
+    margin-top: 5em;
+    padding-top: 0;
+  }
+
+  .gravatar {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+
+  .content {
+    display: block;
+    margin-left: 60px;
+
+    img {
+      display: block;
+      padding: 5px 0;
+      width: 500px;
+      height: 500px;
+    }
+  }
+
+  .timestamp {
+    color: $gray-light;
+    display: block;
+    margin-left: 60px;
   }
 }

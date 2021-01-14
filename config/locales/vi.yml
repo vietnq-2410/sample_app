@@ -45,7 +45,7 @@ vi:
     expired: "Đã hết hạn"
   message:
     user_warning: "Lỗi!"
-    sign_up_error_count: "Lỗi đăng ký! Có %{count} lỗi!"
+    sign_up_error_count: "Số lỗi xảy ra: %{count}"
     update_success: "Cập nhật thành công!"
     delete_success: "Xóa thành công!"
     alert_login: "Vui lòng hãy đăng nhập."
@@ -56,6 +56,9 @@ vi:
     check_mail: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
     not_activate: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt."
     input_blank: "Không được để trống!"
+    micropost_success: "Đã tạo bài đăng!"
+    micropost_failed: "Không thể đăng bài viết!"
+    js_size_image: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn."
   action:
     delete: "Xóa"
     update: "Cập nhật"
@@ -77,3 +80,14 @@ vi:
     hi: "Xin chào %{name} !"
     send_pass: "Xin vui lòng kiểm tra email của bạn"
     send_pass_fail: "Gửi mail không thành công!"
+  micropost:
+    micropost: "bài viết"
+    mic_count: "Bài viết %{mp_count}"
+    time_ago_in_words: "Đã đăng %{time_ago_in_words} trước."
+    view_profile: "Xem hồ sơ của tôi"
+    form_placeholder: "Soạn bài viết mới ..."
+    mic_feed: "Nguồn cấp dữ liệu bài viết"
+    f_content: "Nội dung"
+    f_picture: "Hình ảnh"
+    valid_image: "Phải là định dạng hình ảnh hợp lệ"
+    less_size: "Phải nhỏ hơn 5MB"
