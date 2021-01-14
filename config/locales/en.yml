@@ -26,6 +26,7 @@ en:
     email: "Email:"
     password: "Password:"
     confirmation: "Confirm password:"
+    remember_me: "Remember me on this computer"
     invalid_email_password_combination: "Invalid email password combination!"
     account: "Account"
     profile: "Profile"
