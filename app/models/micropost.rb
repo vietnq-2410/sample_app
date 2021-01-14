@@ -1,6 +1,7 @@
 class Micropost < ApplicationRecord
   belongs_to :user
   scope :by_created_at, ->{order(created_at: :desc)}
+  scope :get_feed, ->(following_ids, id){where("user_id IN (?) OR user_id = ?", following_ids, id)}
   has_one_attached :image
   validates :content, presence: true,
               length: {maximum: Settings.validates.content_microppst}
