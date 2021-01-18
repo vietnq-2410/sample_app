@@ -45,7 +45,7 @@ en:
     expired: "Expired"
   message:
     user_warning: "Not user!"
-    sign_up_error_count: "Sign up error! Has %{count} errors!"
+    sign_up_error_count: "Number of errors occurred: %{count}"
     update_success: "Update success!"
     delete_success: "Delete success!"
     alert_login: "Please log in."
@@ -56,6 +56,9 @@ en:
     check_mail: "Please check your email to activate your account."
     not_activate: "Account not activated. Check your email for the activation link."
     input_blank: "Must not blank!"
+    micropost_success: "Micropost created!"
+    micropost_failed: "Micropost uncreated!"
+    js_size_image: "Maximum file size is 5MB. Please choose a smaller file."
   action:
     delete: "Delete"
     update: "Update"
@@ -77,3 +80,14 @@ en:
     hi: "Hi %{name} !"
     send_pass: "Please check your email"
     send_pass_fail: "Send mail failed!"
+  micropost:
+    micropost: "micropost"
+    mic_count: "Micropost %{mp_count}"
+    time_ago_in_words: "Posted %{time_ago_in_words} ago."
+    view_profile: "View my profile"
+    form_placeholder: "Compose new micropost..."
+    mic_feed: "Micropost Feed"
+    f_content: "Content"
+    f_picture: "Picture"
+    valid_image: "Must be a valid image format"
+    less_size: "Should be less than 5MB"
