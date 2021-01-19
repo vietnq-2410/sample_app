@@ -9,4 +9,9 @@ module UsersHelper
   def current_user? user
     user == current_user
   end
+
+  def user_relationship
+    current_user.active_relationships
+                .find_by(followed_id: @user.id)
+  end
 end

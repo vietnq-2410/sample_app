@@ -66,6 +66,10 @@ vi:
     confirm: "Bạn chắc chắn?"
     save: "Lưu"
     change: "Thay đổi"
+    following: "Đang theo dõi"
+    followers: "Người theo dõi"
+    unfollow: "Bỏ theo dõi"
+    follow: "Theo dõi"
   edit_user:
     title: "Cập nhật hồ sơ của bạn"
   all_user:

@@ -66,6 +66,10 @@ en:
     confirm: "You sure?"
     save: "Save"
     change: "Change"
+    following: "Following"
+    followers: "Followers"
+    unfollow: "Unfollow"
+    follow: "Follow"
   edit_user:
     title: "Update your profile"
   all_user:
